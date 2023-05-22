@@ -44,6 +44,12 @@ a:hover {
     color: #353131;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #37393a;
+}
+
 .container {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -126,3 +132,11 @@ a:hover {
    background-color: #353131;
 }
 
+
+.skill-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ 
