@@ -175,4 +175,32 @@ section {
 
 
 
- 
+ /* animation */
+ .intro {
+    position: relative;
+    animation: slide-in-left 1s ease-in-out;
+ }
+
+ .skills {
+    position: relative;
+    animation: slide-in-right 1s ease-in-out;
+ }
+
+
+ @keyframes slide-in-left {
+    0% {
+      top: -100px;
+    }
+    100% {
+        top: 0;
+    }
+  }
+
+  @keyframes slide-in-right {
+    0% {
+      right: -100px;
+    }
+    100% {
+      right: 0;
+    }
+  }
