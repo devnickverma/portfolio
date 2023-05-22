@@ -34,6 +34,14 @@ main {
     margin-bottom: 20px;
 }
 
+.m-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: #c7c7c7;
@@ -45,14 +53,40 @@ a:hover {
 }
 
 .section-title {
-    font-size: 35px;
+    font-size: 38px;
     font-weight: 700;
     color: #37393a;
 }
 
+.section-heading {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.section-subheading {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.section-subheading > ul > li {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
 .container {
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+section {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.section-subheading1 {
+    font-size: 25px;
+    font-weight: 500;
 }
 
 
@@ -138,5 +172,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
 }
+
+
 
  
